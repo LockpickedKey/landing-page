@@ -13,10 +13,6 @@ body {
       justify-content: space-between;
       padding: 8px 2rem 8px 2rem;
       background-color: #1F2937;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 96%
 }
 
 .header-left {
@@ -43,10 +39,14 @@ ul {
       margin: 0;
       padding: 0;
       gap: 32px;
+      overflow: hidden;
+}
+
+li a:hover {
+      color: #ef5350;
 }
     
-    
-a {
+li a {
       color: white;
       text-decoration: none;
       font-size: 18px;
