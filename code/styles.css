@@ -47,12 +47,12 @@ body {
       display: flex;
       background-color: #1f2937;
       justify-content: center;
-      gap: 3rem;
+      gap: 4rem;
       padding: 128px;
       align-items: center;
-            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-            background-size: 400% 400%;
-            animation: gradient 15s ease infinite;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -79,7 +79,7 @@ div.polaroid {
       align-items: center;
       justify-content: center;
       gap: 10px;
-      padding: 10px 10px 15px 10px;
+      padding: 12px 12px 12px 12px;
       border: 1px solid #BFBFBF;
       background-color: white;
 
@@ -87,6 +87,8 @@ div.polaroid {
 
 .caption {
       color: #1f2937;
+      font-weight: bold;
+      font-size: 24px;
 }
     
 div.rotate_right {
@@ -98,12 +100,12 @@ div.rotate_right {
       display: inline-block; 
       padding: 10px 20px; 
       background-color: #3882F6;
-      color: black;
+      color: #1f2937;
       text-decoration: none;
       border: none; 
       border-radius: 25px; 
       cursor: pointer; 
-      transition: background-color 0.3s ease; /* Smooth hover effect */ 
+      transition: background-color 0.3s ease;
 } 
      
 .button:hover { 
