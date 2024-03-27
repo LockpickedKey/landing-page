@@ -10,6 +10,10 @@ body {
       flex-direction: column;
 }
 
+#active {
+      color: dodgerblue;
+}
+
 .footer {
       display: flex;
       display-content: column;
