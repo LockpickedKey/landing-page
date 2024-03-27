@@ -15,12 +15,11 @@ body {
       display-content: column;
       padding: 8px 2rem 8px 2rem;
       background-color: #1F2937;
-      border-bottom: 1px solid black;   
-      color: white;
+      border-top: 1px solid black;   
       justify-content: center;
       align-items: center;
-      font-size: 12px;
-      color: rgb(220, 220, 220)
+      font-size: 8px;
+      color: #e5e7eb;
 }
 /* header */
 
