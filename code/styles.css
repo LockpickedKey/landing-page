@@ -196,8 +196,8 @@ li a {
 
 .product-card {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      padding: 10px;
-      max-width: 300px;
+      padding: 10px;     
+      max-width: 250px;
       margin: auto;
       text-align: center;
       font-family: arial;
@@ -225,7 +225,13 @@ li a {
 }
 
 .product-img {
-      height: 200px;
-      weight: auto;
+      height: 150px;
       border-radius: 10px;
+}
+
+.products-content {
+      display: flex;
+      flex: 1;
+      flex-wrap: warp;
+      align-content: space-between;
 }
